@@ -1,7 +1,7 @@
 body {
     background-color: purple;
     font-family: Arial, sans-serif;
-    color: white;
+    color: black;
 }
 h1 {
     color: lemonchiffon;
@@ -12,21 +12,24 @@ h1 {
 }
 h2 {
     padding-bottom: 20px;
+    color: white;
     font-weight: bold;
     font-style: italic;
-    font-size: medium;
+    font-size: 34px;
 }
 
 p {
     color: cyan;
     font-family: dancing script, cursive;
-    padding-bottom: 1%;
 
 }
-
+section {
+    padding-bottom: 4%;
+}
 .flexbox {
     display: flex;
     background-color: DodgerBlue;
+    text-align: center;
   }
   .flexbox div {
     background-color: #f1f1f1;
@@ -36,9 +39,12 @@ p {
     font-size: 30px;
   }
 
+  #Connect ul { 
+    display: flex; gap: 60px; 
+}
+
 a {
     color: cyan;
     text-decoration: none;
     font-family: times new roman, serif;
-    padding-bottom: 1%;
 }
