@@ -1,0 +1,38 @@
+body {
+    background-color: #b59ae3;
+    font-family: Arial, sans-serif;
+}
+h1 {
+    color: #def868;
+    text-align: center;
+    text-decoration: underline;
+    
+   
+}
+h2 {
+    color: #ffffff;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p {
+    color: #4ef9c5;
+    font-family: dancing script, cursive;
+    padding-bottom: 1%;
+
+}
+
+ul {
+    color: #4ef9c5;
+    font-family: dancing script, cursice;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    list-style: circle;
+}
+a {
+    color: #4ef9c5;
+    text-decoration: none;
+    font-family: times new roman, serif;
+    padding-bottom: 1%;
+}
