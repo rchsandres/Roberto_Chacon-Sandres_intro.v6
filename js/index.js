@@ -6,7 +6,7 @@ body.appendChild(footer);
 const today = new Date();
 let thisYear = today.getFullYear();
 
-const foot = document.querySelector("footer");
+//const foot = document.querySelector("footer");
 
 const copyright = document.createElement("p");
 
