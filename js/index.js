@@ -10,7 +10,7 @@ const foot = document.querySelector("footer");
 
 const copyright = document.createElement("p");
 
-copyright.innerHTML = `Roberto Chacon-Sandre ${thisYear}`;
+copyright.innerHTML = `&copy; Roberto Chacon-Sandres ${thisYear}`;
 
 footer.appendChild(copyright);
 
