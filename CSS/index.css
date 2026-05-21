@@ -39,13 +39,10 @@ section {
     font-size: 30px;
   }
 
-  .flexbox ul {
-    background-color: #f1f1f1;
-    color: cyan;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+ #skills ul {
+    display: flex; gap: 60px; 
   }
+
   #Connect ul { 
     display: flex; gap: 60px; 
 }

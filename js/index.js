@@ -1,12 +1,12 @@
 const body = document.getElementsByTagName("body")[0];
-const foot = document.createElement("footer");
+const footer = document.createElement("footer");
 
 body.appendChild(footer);
 
 const today = new Date();
 let thisYear = today.getFullYear();
 
-const footer = document.querySelector("footer");
+const foot = document.querySelector("footer");
 
 const copyright = document.createElement("p");
 
@@ -16,8 +16,8 @@ footer.appendChild(copyright);
 
 const skills = ["JavaScript", "HTML", "CSS", "Github"];
 
-const skillSection = document.querySelector("skills");
-const skillsList = skillsSection.querySelector("ul");
+const skillSection = document.querySelector(`#skills`);
+const skillsList = skillSection.querySelector("ul");
 
 for(let i =0; i<skills.length; i++){
     const skill = document.createElement("li");
