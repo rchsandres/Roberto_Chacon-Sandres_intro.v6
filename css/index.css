@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(231, 67, 231);
+    font-family: Arial, sans-serif;
+    color: black;
+}
+h1 {
+    color: lemonchiffon;
+    text-align: center;
+    text-decoration: underline;
+    
+   
+}
+
+h2 {
+    padding-bottom: 20px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 34px;
+}
+
+p {
+    color: cyan;
+    font-family: dancing script, cursive;
+
+}
+section {
+    padding-bottom: 4%;
+}
+.flexbox {
+    display: flex;
+    background-color: DodgerBlue;
+    text-align: center;
+  }
+  .flexbox div {
+    background-color: #f1f1f1;
+    color: cyan;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+ #skills ul {
+    display: flex; gap: 60px; 
+  }
+
+  #Connect ul { 
+    display: flex; gap: 60px; 
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+    font-family: times new roman, serif;
+}
+
+#messages ul{
+    padding-bottom: 15 px;
+}
