@@ -39,6 +39,10 @@ section {
     font-size: 30px;
   }
 
+ #skills ul {
+    display: flex; gap: 60px; 
+  }
+
   #Connect ul { 
     display: flex; gap: 60px; 
 }
