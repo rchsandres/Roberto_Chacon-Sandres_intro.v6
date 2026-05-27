@@ -52,3 +52,7 @@ a {
     text-decoration: none;
     font-family: times new roman, serif;
 }
+
+#messages li{
+    font-size: large;
+}
