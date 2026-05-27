@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(231, 67, 231);
+    background-color: purple;
     font-family: Arial, sans-serif;
     color: black;
 }
@@ -10,7 +10,6 @@ h1 {
     
    
 }
-
 h2 {
     padding-bottom: 20px;
     color: white;
@@ -52,8 +51,4 @@ a {
     color: cyan;
     text-decoration: none;
     font-family: times new roman, serif;
-}
-
-#messages ul{
-    padding-bottom: 15 px;
 }
