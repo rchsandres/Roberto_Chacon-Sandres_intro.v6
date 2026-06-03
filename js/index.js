@@ -79,5 +79,13 @@ for(let i = 0; i < repositories.length; i++){
     projectList.appendChild(project);
 }
 })
-.catch(error => console.error("Error:", error));
 
+.catch(error => {
+
+    console.error("Error:", error);
+    const projectSection = document.querySelector(`#Projects`);
+    const projectList = projectSection.querySelector("ul");
+    const errorMessage = document.createElement("li");
+    errorMessage.innerText = "Error fetching projects: " + error.message;
+    projectList.appendChild(errorMessage);
+});
