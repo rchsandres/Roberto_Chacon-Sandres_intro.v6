@@ -60,3 +60,19 @@ messageForm.addEventListener("submit", function(event){
 });
 
 
+fetch("https://api.github.com/users/rchsandres/repos")
+.then(response => response.json())
+.then(data => {
+    const reposteries = data;
+    console.log(reposteries);
+})
+.catch(error => console.error("Error:", error));
+
+const projectSection = document.querySelector(`#Projects`);
+const projectList = projectSection.querySelector("ul");
+
+for(let i = 0; i < reposteries.length; i++){
+    const project = document.createElement("li");
+    project.innerText = reposteries[i].name;
+    projectList.appendChild(project);
+}
