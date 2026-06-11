@@ -41,6 +41,7 @@ section {
 
  #skills ul {
     display: flex; gap: 60px; 
+    color: white;
   }
 
   #Connect ul { 
