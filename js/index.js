@@ -60,3 +60,32 @@ messageForm.addEventListener("submit", function(event){
 });
 
 
+fetch("https://api.github.com/users/rchsandres/repos")
+.then(response => response.json())
+.then(data => {
+    const repositories = data;
+    console.log(repositories);
+
+    const projectSection = document.querySelector(`#Projects`);
+    const projectList = projectSection.querySelector("ul");
+
+for(let i = 0; i < repositories.length; i++){
+    const project = document.createElement("li");
+    project.innerText = repositories[i].name;
+    projectList.appendChild(project);
+}if (repositories.length === 0){
+    const project = document.createElement("li");
+    project.innerText = "No projects found";
+    projectList.appendChild(project);
+}
+})
+
+.catch(error => {
+
+    console.error("Error:", error);
+    const projectSection = document.querySelector(`#Projects`);
+    const projectList = projectSection.querySelector("ul");
+    const errorMessage = document.createElement("li");
+    errorMessage.innerText = "Error fetching projects: " + error.message;
+    projectList.appendChild(errorMessage);
+});

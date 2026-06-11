@@ -55,4 +55,9 @@ a {
 
 #messages li{
     font-size: large;
+
+}
+
+#Projects ul {
+    display: flex; gap: 60px; 
 }
