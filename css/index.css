@@ -31,17 +31,16 @@ section {
     text-align: center;
   }
   .flexbox div {
-    background-color: darkblue;
+    background-color: darkblue ;
     color: cyan;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
   }
 
- #Skills ul {
-    display: flex; gap: 60px; 
+#Skills ul{
     color: cyan;
-  }
+}
 
 #Projects ul{
     color: cyan;
