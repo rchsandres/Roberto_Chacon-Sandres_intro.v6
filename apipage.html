@@ -2,25 +2,31 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="api page" content="width=device-width, initial-scale=1.0" />
-  <meta name="weather api" content="Page for weather api" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="API" content="Page for weather api" />
   <title>Weather API</title>
   <link rel="stylesheet" href="css/apicss.css" />
 </head>
 <body>
-    <h1>Weather API</h1>
+  <h1>Weather API</h1>
 
-   <nav>
+  <nav>
     <ul>
-        <li><a href="index.html">back</a></li>
+      <li><a href="index.html">Back</a></li>
+      <li><a href="#weather">Temperature</a></li>
+      <li><a href="#wind">Wind Speed</a></li>
     </ul>
-   </nav>
-    
-   <section id="weather">
-    <h2>Weather</h2>
+  </nav>
+
+  <section id="weather">
+    <h2>Hourly Temperature</h2>
     <ul></ul>
-   </section>
- 
+  </section>
+
+  <section id="wind">
+    <h2>Hourly Wind Speed</h2>
+    <ul></ul>
+  </section>
 
   <script src="js/apijs.js"></script>
 </body>
