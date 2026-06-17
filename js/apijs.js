@@ -1,3 +1,4 @@
+//footer code
 const body = document.getElementsByTagName("body")[0];
 const footer = document.createElement("footer");
 
@@ -45,3 +46,4 @@ fetch(apiUrl)
     errorMessage.innerText = "Error fetching weather: " + error.message;
     weatherList.appendChild(errorMessage);
   });
+

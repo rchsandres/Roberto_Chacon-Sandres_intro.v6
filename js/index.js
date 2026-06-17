@@ -23,6 +23,9 @@ for(let i =0; i<skills.length; i++){
     skillsList.appendChild(skill);
 }
 
+
+
+
 const messageForm = document.querySelector(`[name = "leave_message"]`);
 messageForm.addEventListener("submit", function(event){
     event.preventDefault();
