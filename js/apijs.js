@@ -18,7 +18,6 @@ fetch(apiUrl)
     const hourlyTemps = data.hourly.temperature_2m;
     const hourlyWind = data.hourly.wind_speed_10m;
 
-    // --- Endpoint 1: Temperature ---
     const weatherList = document.querySelector("#weather ul");
 
     if (hourlyTemps.length === 0) {
@@ -33,7 +32,6 @@ fetch(apiUrl)
       }
     }
 
-    // --- Endpoint 2: Wind Speed ---
     const windList = document.querySelector("#wind ul");
 
     if (hourlyWind.length === 0) {
